@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#551C1C"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    tools:context=".VentaCliente" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue_pi"
+                android:gravity="center"
+                android:text="@string/text1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#FFFFFF">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Switch
+                                android:id="@+id/swtConservador"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:minHeight="48dp"
+                                android:showText="true"
+                                android:text="El Cliente Tiene conservador"
+                                android:textColor="#000000"
+                                android:textColorHint="#0E0E0E"
+                                android:textOff="No"
+                                android:textOn="SI"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:thumbTextPadding="8dp"
+                                android:thumbTint="#03A9F4"
+                                android:trackTint="#FF0000"
+                                android:visibility="gone" />
+
+                            <LinearLayout
+                                android:id="@+id/llEtiquetaInterna"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <TextView
+                                    android:id="@+id/textView15"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:text="Ingrese Etiqueta Interna"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:id="@+id/llIngresarEI"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="3dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+                                    android:visibility="visible">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="2dp"
+                                        android:layout_weight="1"
+                                        android:background="@drawable/layout_borde"
+                                        android:backgroundTint="#FFEBC2"
+                                        android:orientation="horizontal"
+                                        android:padding="3dp">
+
+                                        <TextView
+                                            android:id="@+id/textView17"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0"
+                                            android:gravity="center"
+                                            android:padding="4dp"
+                                            android:text="PRE - CON -"
+                                            android:textColor="#000000"
+                                            android:textSize="20sp"
+                                            android:textStyle="bold" />
+
+                                        <EditText
+                                            android:id="@+id/etnEI"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="0"
+                                            android:enabled="true"
+                                            android:gravity="center"
+                                            android:hint="###"
+                                            android:inputType="number"
+                                            android:maxLength="7"
+                                            android:padding="3dp"
+                                            android:textColor="#000000"
+                                            android:textColorHint="#6E6E6E"
+                                            tools:ignore="TouchTargetSizeCheck" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="3dp"
+                                        android:layout_weight="0"
+                                        android:orientation="horizontal">
+
+                                        <CheckBox
+                                            android:id="@+id/cbNoEtiqueta"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_margin="2dp"
+                                            android:layout_weight="0"
+                                            android:buttonTint="@color/blue_pi"
+                                            android:gravity="center|center_vertical"
+                                            android:text="No tiene"
+                                            android:textColor="#000000"
+                                            tools:ignore="TouchTargetSizeCheck" />
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <Switch
+                                android:id="@+id/swtQR"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:minHeight="48dp"
+                                android:showText="true"
+                                android:text="¿El Conservador Tiene QR?"
+                                android:textColor="#000000"
+                                android:textColorHint="#0E0E0E"
+                                android:textOff="No"
+                                android:textOn="SI"
+                                android:textSize="16sp"
+                                android:textStyle="bold"
+                                android:thumbTextPadding="8dp"
+                                android:thumbTint="#03A9F4"
+                                android:trackTint="#FF0000"
+                                android:visibility="gone" />
+
+                            <LinearLayout
+                                android:id="@+id/llIngresarQR"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/custom_border"
+                                android:orientation="horizontal"
+                                android:visibility="gone">
+
+                                <EditText
+                                    android:id="@+id/etnQR"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:enabled="true"
+                                    android:gravity="center"
+                                    android:hint="Ingrese QR"
+                                    android:inputType="number"
+                                    android:textColor="#000000"
+                                    android:textColorHint="#6E6E6E"
+                                    tools:ignore="TouchTargetSizeCheck" />
+
+                                <ImageButton
+                                    android:id="@+id/btnQR"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:backgroundTint="#FFFFFF"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:minWidth="48dp"
+                                    android:minHeight="48dp"
+                                    android:src="@drawable/ic_icon_qr"
+                                    app:tint="#000000"
+                                    tools:ignore="SpeakableTextPresentCheck" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="horizontal">
+
+                                <RadioGroup
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <RadioButton
+                                        android:id="@+id/rbVentaCliente"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:buttonTint="#020202"
+                                        android:checked="true"
+                                        android:text="Venta Cliente"
+                                        android:textColor="#000000"
+                                        android:textStyle="bold"
+                                        tools:ignore="TouchTargetSizeCheck" />
+
+                                    <RadioButton
+                                        android:id="@+id/rbVentaPublicoGral"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:buttonTint="#020202"
+                                        android:text="Publico General"
+                                        android:textColor="#000000"
+                                        android:textStyle="bold"
+                                        tools:ignore="TouchTargetSizeCheck" />
+
+                                    <RadioButton
+                                        android:id="@+id/rbVentaOtroCliente"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:buttonTint="#020202"
+                                        android:text="Otros clientes"
+                                        android:textColor="#000000"
+                                        android:textStyle="bold"
+                                        tools:ignore="TouchTargetSizeCheck" />
+                                </RadioGroup>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/llSeleccionarCliente"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:visibility="visible">
+
+                                <TextView
+                                    android:id="@+id/textView6"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="Seleccione el cliente:"
+                                    android:textColor="#000000"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:id="@+id/llcmbclientes"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    android:background="@drawable/linerlayout_water_selector"
+                                    android:foreground="@drawable/custom_border"
+                                    android:orientation="horizontal">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="60dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/lblClienteSelec"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_margin="5dp"
+                                            android:layout_weight="4"
+                                            android:background="@drawable/linerlayout_water_selector"
+                                            android:gravity="center"
+                                            android:text="Seleccionar Cliente"
+                                            android:textAlignment="center"
+                                            android:textColor="#000000"
+                                            android:textSize="20sp" />
+
+                                        <ImageButton
+                                            android:id="@+id/imgbtnClientes"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="1"
+                                            android:background="@drawable/linerlayout_water_selector"
+                                            android:backgroundTint="#3661FF"
+                                            android:foreground="@drawable/custom_border"
+                                            app:srcCompat="@android:drawable/arrow_down_float"
+                                            app:tint="#000000"
+                                            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                                        <ImageButton
+                                            android:id="@+id/imgLocalizacion"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:background="@drawable/linerlayout_water_selector"
+                                            android:visibility="gone"
+                                            app:srcCompat="@android:drawable/ic_menu_mylocation"
+                                            app:tint="#FF0000" />
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView13"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Venta de Productos"
+                                android:textAlignment="center"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <AutoCompleteTextView
+                                    android:id="@+id/cmbProductos"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="3"
+                                    android:background="@drawable/custom_border"
+                                    android:completionHint="Selecciona un cliente"
+                                    android:completionThreshold="1"
+                                    android:hint="Selecciona un producto"
+                                    android:minHeight="48dp"
+                                    android:textColor="#000000"
+                                    android:textColorHint="#474747" />
+
+                                <EditText
+                                    android:id="@+id/txtPiezasPro"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="3"
+                                    android:background="@drawable/custom_border"
+                                    android:ems="8"
+                                    android:hint="Piezas"
+                                    android:inputType="numberSigned"
+                                    android:textAlignment="center"
+                                    android:textColor="#000000"
+                                    android:textColorHint="#707070" />
+
+                            </LinearLayout>
+
+                            <Button
+                                android:id="@+id/btnAgregarPro"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="5dp"
+                                android:background="@drawable/linerlayout_water_selector"
+                                android:backgroundTint="#5E5E5E"
+                                android:drawableRight="@android:drawable/ic_input_add"
+                                android:text="Agregar" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/layout_borde"
+                                android:orientation="vertical">
+
+                                <TableLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_margin="2dp"
+                                    android:stretchColumns="1,2,3,4,5">
+
+                                    <TableRow android:background="@color/blue_pi">
+
+                                        <TextView
+                                            android:id="@+id/lblPiezasP"
+                                            android:layout_marginRight="5dp"
+                                            android:ems="2"
+                                            android:gravity="center"
+                                            android:padding="3dp"
+                                            android:text="Pz."
+                                            android:textColor="@color/black"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/tr_lblNombre_prod"
+                                            android:layout_marginRight="5dp"
+                                            android:ems="4"
+                                            android:gravity="center"
+                                            android:padding="3dp"
+                                            android:text="Producto"
+                                            android:textColor="@color/black"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/tr_lblPrecio_Prod"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginRight="5dp"
+                                            android:ems="1"
+                                            android:gravity="center"
+                                            android:padding="3dp"
+                                            android:text="Precio"
+                                            android:textColor="@color/black"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/tr_lblTotal_Prod_as"
+                                            android:layout_marginRight="5dp"
+                                            android:ems="1"
+                                            android:gravity="center"
+                                            android:padding="3dp"
+                                            android:text="Total"
+                                            android:textColor="@color/black"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:id="@+id/tr_cbTipoP_Prod"
+                                            android:ems="3"
+                                            android:gravity="center"
+                                            android:padding="3dp"
+                                            android:text="Pago"
+                                            android:textColor="@color/black"
+                                            android:textStyle="bold" />
+                                    </TableRow>
+                                </TableLayout>
+
+                                <androidx.recyclerview.widget.RecyclerView
+                                    android:id="@+id/recProductos"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="200dp"
+                                    android:layout_marginStart="1dp"
+                                    android:layout_marginEnd="1dp"
+                                    app:layout_constraintLeft_toLeftOf="parent"
+                                    app:layout_constraintRight_toRightOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/table_heading_layout"></androidx.recyclerview.widget.RecyclerView>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Piezas"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblPiezasVenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Total"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lblTotalVenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="$0.00"
+                android:textAlignment="center"
+                android:textColor="#FF0000"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnVentaCliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Confirmar Venta" />
+
+            <Button
+                android:id="@+id/btnGuardarVenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Guardar Venta"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnCancelarVenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cancelar Venta" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblTiempoRestante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/blue_pi"
+                android:gravity="center"
+                android:text="00:00:00"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/pbCargando"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

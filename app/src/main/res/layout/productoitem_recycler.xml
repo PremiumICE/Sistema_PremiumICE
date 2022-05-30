@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:stretchColumns="1,2,3,4,5">
+
+    <TableRow android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/lblPiezasP"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ems="2"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tr_lblNombre_prod"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ems="4"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tr_lblPrecio_Prod_as"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ems="2"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tr_lblTotal_Prod_as"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ems="1"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="Editar"
+            android:textColor="@color/black" />
+
+        <CheckBox
+            android:id="@+id/tr_cbTipoP_Prod"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:ems="4"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="Contado"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </TableRow>
+</TableLayout>

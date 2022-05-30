@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#333">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/scanner_toolbar_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="10dp"
+            android:paddingEnd="20dp"
+            app:srcCompat="@android:drawable/ic_media_rew"
+            android:contentDescription="Volver Atras" />
+
+        <TextView
+            android:id="@+id/scanner_toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/name_qr"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/scanner_toolbar_add"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.11"
+            android:contentDescription="Agregar Imagen"
+            android:paddingStart="20dp"
+            android:paddingEnd="10dp"
+            android:visibility="gone"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+
+    </LinearLayout>
+
+
+</Toolbar>

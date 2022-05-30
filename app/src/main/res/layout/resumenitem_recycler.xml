@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:stretchColumns="1,2,3,4,5">
+
+    <TableRow android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/lblPiezasPR"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ems="2"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tr_lblNombre_prodR"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ems="4"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tr_lblPrecio_prodR"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ems="2"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tr_lblTotal_prodR"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ems="1"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tr_lblTipoR"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:ems="4"
+            android:gravity="center"
+            android:padding="3dp"
+            android:textColor="@color/black" />
+
+    </TableRow>
+</TableLayout>

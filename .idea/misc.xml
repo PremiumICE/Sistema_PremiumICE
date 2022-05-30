@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable-v21/linerlayout_water_selector.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/boton_bordes.xml" value="0.1648148148148148" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/boton_premiumice.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/btn_dropdown_spinner.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/button_redondo.xml" value="0.2" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/circulo_texto.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/custom_border.xml" value="0.1648148148148148" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/detener_ruta.xml" value="0.1" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/fondo_redondeado.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.10555555555555556" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/ic_icon_qr.xml" value="0.1648148148148148" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/ic_menu_inicio.xml" value="0.1648148148148148" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/iniciar_texto.xml" value="0.1" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/inicio_ruta_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/layout_borde.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/layout_bordes_redondos.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/layout_sheet_conservadores.xml" value="0.4" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/linerlayout_water_selector.xml" value="0.1111111111111111" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/recycler_horizontal_divider.xml" value="0.13240740740740742" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/side_nav_bar.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/spinner_selector.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/table_background.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/table_border_prod.xml" value="0.11574074074074074" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/table_content_cell_bg.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/drawable/table_header_cell_bg.xml" value="0.10740740740740741" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_gastos.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_login.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_maps.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_mermas.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_registro_ventas.xml" value="0.20380434782608695" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_scanner.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_splash.xml" value="0.171875" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_venta_cliente.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/activity_ventas.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/agregar_mermas.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/auditoria_conservador.xml" value="0.25" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/bottom_sheet_conservadores.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/buscar_cliente.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/clienteitem_recycler.xml" value="0.25" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/conservadoritem_recycler.xml" value="0.2" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/contenido_principal.xml" value="0.23777173913043478" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/content_gastos.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/detener_ruta.xml" value="0.264" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/dialog_searchable_spinner.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/fragment_configuracion.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/fragment_inicio.xml" value="0.2441123188405797" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/fragment_registro_ventas.xml" value="0.20380434782608695" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/fragment_venta.xml" value="0.17300724637681159" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/fragment_venta_clientes.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/fragment_ventas_clientes.xml" value="0.2033514492753623" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/gastos.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/ids.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/info_auditoria.xml" value="0.25" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/informacion_adicional_gasto.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/informacion_mermas.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/iniciar_ruta.xml" value="0.23007246376811594" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/itemgastos_recycler.xml" value="0.24230072463768115" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/layout_sheet_cons.xml" value="0.3625" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/menu_recycler.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/menucitem_recycler.xml" value="0.3625" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/menuitem_recycler.xml" value="0.264" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/mermaitem_recycler.xml" value="0.2359375" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/modificar_producto.xml" value="0.21875" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/proceso_conservador.xml" value="0.264" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/productoitem_recycler.xml" value="0.176" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/resumenitem_recycler.xml" value="0.1897644927536232" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/row_clientes.xml" value="0.22735507246376813" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/sheet_content.xml" value="0.1" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/spinner_item.xml" value="0.24561403508771928" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/spinner_item_drop.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/spinner_item_motivos.xml" value="0.171875" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/venta_otrocliente.xml" value="0.2234375" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/ventagitem_recycler.xml" value="0.25" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/ventas_guardadas.xml" value="0.25" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/layout/ventasitem_recycler.xml" value="0.25" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/menu/menu_main.xml" value="0.264" />
+        <entry key="..\:/Users/DESARROLLO.IT/Documents/AndroidStudio/Sistema_Conservadores/app/src/main/res/mipmap-anydpi-v26/inicio_ruta.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

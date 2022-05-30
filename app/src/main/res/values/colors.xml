@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="gray">#888</color>
+    <color name="gray_100">#AAA</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_pi">#42A5F5</color>
+    <color name="red_pi">#CB3234</color>
+
+    <color name="seleccionado">#44FF11</color>
+    <color name="deseleccionado">#42A5F5</color>
+
+    <!--    Colores para activity del qr-->
+    <color name="colorAccent">#ff4081</color>
+    <color name="viewfinder_mask">#60f4f1f7</color>
+    <color name="result_view">#b0e23232</color>
+    <color name="viewfinder_frame">#90FFFFFF</color>
+    <color name="result_point_color">#c0000dff</color>
+    <color name="laser_color">#ff002b</color>
+    <color name="corner_color">#1e00ff</color>
+
+    <!-- Efectos clic en recycler-->
+    <color name="text_Grey">#c1c1c2</color>
+    <color name="colorWhite">#ffffff</color>
+</resources>

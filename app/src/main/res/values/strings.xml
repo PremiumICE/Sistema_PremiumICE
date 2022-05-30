@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Premium ICE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name_qr">PREMIUM ICE</string>
+    <string name="back">返回</string>
+    <string name="forward">前进</string>
+    <string name="renew">刷新</string>
+    <string name="home">主页</string>
+    <string name="menu">菜单</string>
+    <string name="encode_qrcode">生成二维码</string>
+    <string name="dencode_qrcode">扫描二维码</string>
+    <string name="code_text">请输入生成二维码的文本信息</string>
+    <string name="qrcodetext">这里显示扫描结果</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_registro_ventas">Registro_ventas</string>
+    <string name="text1">Se debe guardar la venta antes de que el contador finalice</string>
+    <string name="action_search">Buscar Cliente</string>
+    <string name="toast_result">CountService counted to %1$d</string>
+    <string name="notif_title_result">CountService finished</string>
+    <string name="notif_content_result">The count finished at %1$d</string>
+    <string name="snackbar_result">CountService counted to %1$d</string>
+    <string name="title_activity_gastos">GastosActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hint_resource">Seleccione rubro</string>
+
+    <string name="top_sheet_behavior" translatable="false">Premium</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="rubros">
+        <item>Seleccione</item>
+        <item>Comida</item>
+        <item>Gasolina</item>
+        <item>Mecanico</item>
+        <item>Hospedaje</item>
+    </string-array>
+</resources>

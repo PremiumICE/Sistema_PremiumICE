@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llDatosruta"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".ConfiguracionFragment">
+
+    <TextView
+        android:id="@+id/lblDatosNumR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Revisa los datos de la ruta"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Nombre encargado de la ruta"
+                android:textColor="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="@drawable/layout_borde"
+                android:orientation="vertical">
+
+                <AutoCompleteTextView
+                    android:id="@+id/atxtEncargados"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:foreground="@drawable/layout_borde"
+                    android:hint="Encargados de ruta"
+                    android:minHeight="48dp"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textColorHint="#3A3A3A" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Unidad a llevarse"
+                android:textColor="#000000" />
+
+            <AutoCompleteTextView
+                android:id="@+id/atxtUnidades"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="@drawable/layout_borde"
+                android:hint="Unidades"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#3A3A3A" />
+
+            <TextView
+                android:id="@+id/lblPlacasRuta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="#4C4C4C"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="Kilometraje Inicial"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/txtKMinicial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@android:drawable/ic_menu_send"
+                android:ems="10"
+                android:foreground="@drawable/layout_borde"
+                android:hint="Ingrese Kilometraje de la unidad"
+                android:inputType="numberSigned"
+                android:maxLength="10"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#404040" />
+
+            <TextView
+                android:id="@+id/textView55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="La información no podra editarse hasta el siguiente inicio de ruta"
+                android:textAlignment="center"
+                android:textColor="#FF0101"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnGuardarInformacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableRight="@android:drawable/ic_menu_save"
+                android:text="Guardar e Iniciar Ruta" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
